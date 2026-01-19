@@ -137,6 +137,10 @@ Evaluation on the combined EMBER 2018 and EMBER 2024 dataset yields strong resul
 | Malware Families Classified | 75 |
 
 The ensemble consistently outperforms individual classifiers across all metrics.
+<img width="533" height="380" alt="Screenshot 2026-01-19 at 11 27 22 AM" src="https://github.com/user-attachments/assets/16f5a66b-35fd-4920-9bb9-8345e2c6fb53" />
+<img width="539" height="387" alt="Screenshot 2026-01-19 at 11 27 36 AM" src="https://github.com/user-attachments/assets/76a17bd7-c76a-426f-8a29-f1bf7805eab7" />
+<img width="528" height="286" alt="Screenshot 2026-01-19 at 11 27 49 AM" src="https://github.com/user-attachments/assets/6cdb30d9-1532-4346-8026-8fb3792236fd" />
+<img width="550" height="258" alt="Screenshot 2026-01-19 at 11 28 02 AM" src="https://github.com/user-attachments/assets/c797fe01-96af-42e1-b206-2a0dfd413376" />
 
 ---
 
@@ -157,22 +161,7 @@ Training across multiple dataset vintages improves resilience against **concept 
 
 ## Algorithm Workflow
 
-Input PE File
-↓
-Static Feature Extraction (EMBER)
-↓
-Stage 1: Binary Detection (Ensemble + Calibration)
-├── Benign → Terminate
-└── Malicious
-↓
-Stage 2: Umbrella Classification
-↓
-Stage 3: Trojan Sub-Umbrella (Conditional)
-↓
-Stage 4: Family Classification
-↓
-Final Verdict + Risk Score + Confidence
-
+<img width="414" height="449" alt="Screenshot 2026-01-19 at 11 26 49 AM" src="https://github.com/user-attachments/assets/339307ed-7523-45c9-a59a-fcb4c33bb5db" />
 
 ---
 
